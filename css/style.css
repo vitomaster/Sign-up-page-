@@ -13,7 +13,12 @@ footer{
 #foot-menu a, footer p{
   color: #fff;
 }
-
+#logo {
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    margin-top: 4px;
+}
 
 #foot-menu a{
   font-family: Roboto;
@@ -38,6 +43,10 @@ a {
 header{
   max-width: 1139px;
   margin: 38px auto 0 auto;
+  display: flex;
+  justify-content:space-between;
+
+
 }
 /*tablet*/
 @media screen and (max-width:768px) {
@@ -54,15 +63,16 @@ header{
     margin-top: -20px;
   }
   header {
+    display: block;
     background: rgba(0, 0, 0, 0.4);
     height: 70px;
     margin-top: 0;
     margin-left: 0;
   }
     footer{
-    width: 471px;
+    width: 425px;
     height: 63px;
-    margin: 74px auto 28px 40px;
+    margin: 74px auto 28px;
     display: block;
   }
 
@@ -76,7 +86,7 @@ header{
     @media screen and (max-width:525px){
       body{
         margin: 0;
-        min-width: 525px;
+        min-width: 425px;
       }
 
       .menu{
@@ -110,16 +120,13 @@ header{
       #top-menu{
       display: none;
       }
-    footer p{
-      margin-right: 98px;
-    }
+      #foot-menu{
+        display: flex;
+        justify-content: center;
+      }
     }
     /*mobile-end*/
-#logo {
-  display: inline-block;
-    color: white;
-    font-size: 18px;
-}
+
 #top-menu{
   float: right;
 }
