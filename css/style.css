@@ -50,7 +50,7 @@ header{
   }
   #top-menu{
     margin-right: 25px;
-    margin-top: 20px;
+    margin-top: -20px;
   }
   header {
     background: rgba(0, 0, 0, 0.4);
