@@ -78,9 +78,9 @@ header{
       }
 
       .menu{
-
-    margin-top: -20px;
-    margin-left: 380px;
+        float: right;
+    margin-top: 20px;
+    margin-right: 380px;
         width: 22px;
         height: 14px;
 
