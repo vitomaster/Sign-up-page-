@@ -43,6 +43,7 @@ header{
 @media screen and (max-width:768px) {
   body{
     margin: 0;
+
   }
   #logo{
     margin-left: 24px;
@@ -75,12 +76,13 @@ header{
     @media screen and (max-width:525px){
       body{
         margin: 0;
+        min-width: 525px;
       }
 
       .menu{
         float: right;
-    margin-top: 20px;
-    margin-right: 25px;
+        margin-top: 20px;
+        margin-right: 25px;
         width: 22px;
         height: 14px;
 
