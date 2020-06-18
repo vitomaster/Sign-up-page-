@@ -5,7 +5,7 @@ body {
     max-width:1440px;
 }
 footer{
-  
+
  margin: 72px auto 0;
  display: flex;
  justify-content: space-between;
@@ -79,7 +79,7 @@ header{
   #foot-menu{
    display: flex;
    justify-content: flex-start;
-
+   margin-left: 40px;
  }
   footer p{
     margin-top: 31px;
