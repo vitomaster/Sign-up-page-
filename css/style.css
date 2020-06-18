@@ -5,7 +5,7 @@ body {
     max-width:1440px;
 }
 footer{
-  width: 1136px;
+  
  margin: 72px auto 0;
  display: flex;
  justify-content: space-between;
@@ -70,12 +70,17 @@ header{
     margin-left: 0;
   }
     footer{
-    width: 425px;
+      min-width: 425px;
+    max-width: 768px;
     height: 63px;
     margin: 74px auto 28px;
     display: block;
   }
+  #foot-menu{
+   display: flex;
+   justify-content: flex-start;
 
+ }
   footer p{
     margin-top: 31px;
     text-align: center;
